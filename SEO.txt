@@ -1,0 +1,15 @@
+Cambios realizados para optimizar
+
+En el archivo Index.html sume las siguientes caracteristicas:
+
+Aplique etiqueta META con keywords, referentes a la meditacion. 
+
+Agregue una breve descripcion de la pagina. 
+
+Cambie el title por el nombre de la pagina.
+
+Utilice Id para poder volver al encabezado de la pagina. 
+
+Agregaria de tener las otras paginas, en una carpeta. 
+
+
