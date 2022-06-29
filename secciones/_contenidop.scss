@@ -20,7 +20,7 @@
         grid-area: frase;
         display: flex;
         flex-direction: column;
-        background-color: #fff6f9;
+        background-color: $colorFondo;
         align-items: center;
         justify-content: center;
         color: black;
@@ -55,17 +55,15 @@
 
     .section1,
     .section2 {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        font-family: 'lato', sans-serif;
+        @extend %estilosecciones;
+        @include fontStyle($colorFondo, $textoPrimario);
     }
 
     .titulosection2 {
         display: flex;
         justify-content: center;
         padding: 20px;
+        color: $textoPrimario;
     }
 
     .section2 {
@@ -81,7 +79,7 @@
 
     .section3 {
         grid-area: section3;
-        background-color: #fff6f9;
+        background-color: $colorFondo;
         flex-direction: column;
         justify-content: center;
         padding: 20%;
@@ -96,11 +94,12 @@
         background-color: #fff6f9;
         display: flex;
         justify-content: center;
+
         img {
             width: 50%;
         }
     }
- 
+
     .icon {
         padding: 30px;
     }

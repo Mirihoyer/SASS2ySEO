@@ -1,0 +1,16 @@
+%estilosecciones {
+    display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        font-family: 'lato', sans-serif;
+        background-color: $colorFondoSecundario;
+}
+
+//mixin
+
+@mixin fontStyle($colorFondo, $textoPrimario){
+    background-color: $colorFondo;
+    color: $textoPrimario;
+    
+}
