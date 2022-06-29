@@ -6,32 +6,37 @@ ol {
   list-style-type: none; }
 
 ul {
-  list-style-type: none; }
+  list-style-type: none;
+  text-decoration: none; }
 
 .header {
   display: flex;
   background-color: #a2d2ff; }
-  .header nav {
+  .header__logo {
+    height: 80px;
+    margin: 10px; }
+  .header__nav {
     display: flex;
     width: 100%; }
-  .header .menu {
+  .header__ul {
     display: flex;
     flex-wrap: wrap;
     justify-content: flex-end;
     width: 100%;
     font-family: 'Lato', sans-serif; }
-    .header .menu li {
-      padding: 3% 1% 2% 1%; }
-    .header .menu a {
+    .header__ul li {
+      padding: 3% 1% 2% 1%;
       text-decoration: none;
       color: black; }
-      .header .menu a:hover {
+    .header__ul a {
+      text-decoration: none;
+      color: black; }
+      .header__ul a:hover {
+        background-color: #ffa2d8;
         color: white;
         font-weight: bolder; }
-
-.logo img {
-  height: 80px;
-  margin: 10px; }
+        .header__ul a:hover--active {
+          text-decoration: dashed; }
 
 #index .grilla {
   display: grid;
